@@ -1,14 +1,23 @@
-📄 RAG-based Document Question Answering App
+📄 RAG-based Document Question Answering App:
+
 This project implements a Retrieval-Augmented Generation (RAG) system that allows users to upload a PDF document and ask natural language questions.
+
 The system retrieves relevant document chunks using vector similarity search and generates context-grounded answers using a Large Language Model (LLM).
 
 🚀 Features
+
 📄 Upload any PDF document
+
 ✂️ Automatic text chunking
+
 🔎 Semantic retrieval using embeddings + FAISS
+
 🧠 LLM-based generative answering
+
 🚫 Hallucination-safe (answers restricted to retrieved context)
+
 🌐 Interactive Streamlit web interface
+
 ☁️ Deployable on Google Colab
 
 🧠 System Architecture (RAG Pipeline)
@@ -19,12 +28,19 @@ The system retrieves relevant document chunks using vector similarity search and
 5. LLM Answering: Pass retrieved context to an LLM and generate a grounded, natural language answer.
 
 🛠️ Tech Stack
+
 Python
+
 Streamlit – UI
+
 Sentence-Transformers – Text embeddings
+
 FAISS – Vector similarity search
+
 OpenAI API – LLM-based answering
+
 PyPDF – PDF text extraction
+
 Google Colab – Execution & deployment
 
 ## How to Run
